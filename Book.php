@@ -22,7 +22,5 @@ class Book extends ModelAbstract
 }
 
 $book = new Book(4);
-//var_dump($book->get_all_users());
 var_dump($book->get_user_by_field('Игра престолов'));
-//book->create_user('а',1982);
 $book->delete_user(18);

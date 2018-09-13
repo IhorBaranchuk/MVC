@@ -24,7 +24,7 @@ class DB
 
     private function __construct()
     {
-        $this->con = mysqli_connect("127.0.0.1", "vlastit", "7773410rR", "books");
+        $this->con = mysqli_connect("127.0.0.1", "root", "myPassword", "books");
 
         $this->con->set_charset("utf8");
     }

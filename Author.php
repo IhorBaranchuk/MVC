@@ -21,9 +21,7 @@ class Author extends ModelAbstract
     }
 }
 
-$user = new Author(1);
-//var_dump($user->get_all_users());
+$user = new Author(1);;
 var_dump($user->get_user_by_field('Грегори Киз'));
-//$user->create_user('SSS','1982-02-03');
 $user->delete_user(21);
 $user->update_user('Peter Parker','Анджей Сапковский');
